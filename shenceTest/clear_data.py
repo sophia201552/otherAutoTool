@@ -20,9 +20,9 @@ class DB:
 
     def _conn(self):
         try:
-            server = '47.99.99.45'
-            user = 'root'
-            password = 'Hp#x5zlEvOk!L8AepTFxp'
+            server = '**'
+            user = '*********'
+            password = '***************'
 
             database = 'message'
             self.conn = pymysql.connect(server, user, password, database)
